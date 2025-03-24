@@ -1,4 +1,4 @@
-React + TypeScript + Viteのカウンターアプリ<br>
+React + TypeScript + Viteのカウンターアプリ<br><br>
 〇残ってるタスク<br>
   ・カウンター名変更時、変更前の名前をフォーム内に記載<br>
   ・フォーム内に入っている変更前の名前をそのまま送信できるようにする<br>
