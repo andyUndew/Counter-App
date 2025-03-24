@@ -40,6 +40,7 @@ export const CommonModal = ({isOpen,nameArray,buttonText,buttonState,closeModal,
     }else{
       handleChangeCounter(name);
     }
+    setName("");
   }
 
   const handleCloseModal = () => {
@@ -55,7 +56,7 @@ export const CommonModal = ({isOpen,nameArray,buttonText,buttonState,closeModal,
               <div className="field">
                 <label className="label">Counter Name</label>
                 <div className="control">
-                  <input type="text" className="input" id="counter-name" placeholder="Enter Counter Name"  onChange={handleNameCheck}/>
+                  <input type="text" value={name} className="input" id="counter-name" placeholder="Enter Counter Name"  onChange={handleNameCheck}/>
                 </div>
                 <p className="help is-danger pt-2">{errTxt}</p>
               </div>

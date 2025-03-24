@@ -1,3 +1,5 @@
+// カウンターごとの機能
+
 import { SetStateAction, useState } from "react";
 
 interface NameProps {

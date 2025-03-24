@@ -13,6 +13,7 @@ export const Counter =()=>{
     setNameArray([...nameArray,name]);
     setIsOpen(false);
   }
+
   const handleChangeCounter = (name:string):void =>{
     const newNameArray = [...nameArray];
     newNameArray.forEach((item,index) => {
@@ -25,13 +26,16 @@ export const Counter =()=>{
     setButtonText('Add Counter');
     setIsOpen(false);
   }
+
   const openModal = () =>{
     console.log(nameArray);
     setIsOpen(true)
   }
+
   const closeModal = () =>{
     setIsOpen(false);
   }
+  
     return (
       <div>
 
